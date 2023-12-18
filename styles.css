@@ -1,0 +1,147 @@
+body {
+    font-family: Helvetica, Sans-serif;
+    margin: 50;
+    padding: 20;
+    font-size: 100;
+    background-color: bisque;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+.login-container,
+.inbox-container,
+.compose-container,
+.view-mail-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ad5dc6e6;
+    border-radius: 10px;
+    font-size: large;
+    background-color: bisque;
+}
+
+ul {
+    list-style-type: style type none;
+    padding: 0;
+    background-color: bisque;
+}
+
+ul li {
+    margin-bottom: 50px;
+    background-color: bisque;
+}
+
+/* Link styling */
+a {
+    text-decoration: navajowhite;
+    color: #610acb;
+    transition: color 0.3s ease;
+    text-shadow: darkgrey;
+    background-color: bisque;
+}
+
+a:hover {
+    color: #1187af;
+    text-decoration: underline;
+    background-color: bisque;
+}
+
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+        background-color: bisque;
+    }
+
+    .login-container,
+    .inbox-container,
+    .compose-container,
+    .view-mail-container {
+        max-width: 100%;
+        margin: 20px auto;
+        background-color: bisque;
+    }
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:bisque;
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-style: initial;
+    background-color: bisque;
+}
+
+input,
+textarea {
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 30px solid #17034e85;
+    border-radius: 20px;
+    background-color: bisque;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4285f4;
+    background-color: bisque;
+}
+
+/* Improved button styling */
+button {
+    padding: 12px;
+    color: #0d0d0e;
+    font-size: 30;
+    border: none;
+    border-radius: 30 px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    background-color: bisque;
+}
+
+button:hover {
+    background-color: #3367d6;
+}
+
+/* Message content styling */
+.message-content {
+    background-color: bisque;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 30px solid #ad5dc6e6;
+    border-radius: 80px;
+    font-size: large;
+    
+}
+
+/* Styling for email headers */
+h1, p {
+    margin-bottom: 10px;
+    background-color: bisque;
+}
+
+/* Styling for meta information */
+p {
+    font-size: 0.8em;
+    color: #555;
+    background-color: bisque;
+}
+
+/* Hover effects for list items */
+ul li:hover {
+    background-color: bisque;
+    transition: background-color 0.3s ease;
+}
